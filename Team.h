@@ -15,12 +15,8 @@ public:
     short getgoal_difference();
     short getform();
     void setform(short * form);
-    void setpoints;
-    void set_goaldifference;
+    void setpoints();
+    void set_goals();
 }
-class Match{
-private:
-    match(Team home, Team away);
-public:
 
 };
